@@ -9,7 +9,7 @@ class Tag(models.Model):
 
 class User(models.Model):
     name = models.CharField(max_length=255)
-    age = models.IntegerField(max_length=255)
+    age = models.IntegerField()
     gender = models.CharField(max_length=255)
     country = models.CharField(max_length=255)
 
